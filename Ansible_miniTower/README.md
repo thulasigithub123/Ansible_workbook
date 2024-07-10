@@ -1,5 +1,37 @@
 ## Ansible Host setup in Azure
 
+# What is Ansible?
+
+`Ansible is an open-source IT automation tool that simplifies the process of configuration management, application deployment, and task automation. It uses a simple, human-readable language called YAML (Yet Another Markup Language) to define automation jobs, making it easy for both technical and non-technical users to understand and manage.`
+
+
+# Key features of Ansible include:
+
+ - Agentless: No need to install any agents on the target machines.
+ - Idempotency: Ensures that repeated executions of tasks produce the same result, avoiding unintended changes.
+ - Extensible: Integrates easily with various modules and plugins to extend its functionality.
+
+
+
+How is Ansible Used?
+Ansible is used to automate a wide range of IT tasks, including:
+
+ - Configuration Management: Ensuring systems are configured consistently across environments.
+ - Application Deployment: Automating the deployment of applications to multiple servers.
+ - Orchestration: Coordinating multiple systems and services to work together in a specific order.
+ - Provisioning: Automating the setup of new servers, virtual machines, and other infrastructure components.
+ - Security and Compliance: Enforcing security policies and ensuring systems comply with regulations.
+
+
+
+# design
+![alt text](image-33.png)
+
+
+
+# demo
+![alt text](Azure_ansible_flask_vnetPeering.gif)
+
 create a resource group to hold meta data of the vm infrastructure  
 
 ![alt text](image.png)
@@ -110,6 +142,7 @@ have the hosts file updated with target host's private IP
 ![alt text](image-31.png)
 
 project structure
+
 ![alt text](image-25.png)
 
 
